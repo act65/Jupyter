@@ -25,6 +25,9 @@ plt.legend()
 Am I sure that this is right? what is the $k \neq i$ all about?
 
 
+Surely for MNSIT we are uninterested at the lowest level of local structure? As pixels are normally next to other pixels, we already know this... What we want to correlate is ???
+
+
 ### So how does this relate to t-SNE?
 * This is the distribution that the probabilities are taken from. 
 * High variance preserves global structure and low variance preserves local structure
