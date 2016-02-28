@@ -56,3 +56,8 @@ for s in sigma:
 	plt.scatter(x, y/(np.sum(y), label = 'sigma = ' + str(s))
 plt.legend()
 ```
+If we consider a simple example in 3d. We have two points, A and B. A = (3,4,10000) and B = (3,4,0). Now these two points are quite similar, except for the third dimension, z. If we took the euclidean distance between them it would equal
+
+$$ \sqrt{3^2 + 4^2 + 10000^2} - \sqrt{3^2 + 4^2 + 10000^2}  = ???$$
+
+which is not representative of their similairty. We needa better norm? What are the alternatives and how do we want it to behave?
