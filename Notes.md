@@ -27,12 +27,18 @@ Am I sure that this is right? what is the $k \neq i$ all about?
 
 ### So how does this relate to t-SNE?
 * This is the distribution that the probabilities are taken from. 
+* High variance preserves global structure and low variance preserves local structure
+	* hmm, it would be nice if we could avoid this dichotomy
+* Preferable we would have a distrubution with a long tail? this could help preserve global structure as the sum of all forces over the data points would help shape this
+	* however, doesnt t-SNE repel some datapoints? need to look into this
 *  Why gaussians? It seems like a big assumption that the relationship between data points is gaussian.
 	* What other options are there? 
+	* Gaussians give us? p(x), and symmetry. chi squared is more like two interacting forces? 
 
 $p_{j\mid i} = \frac{\exp(-\lVert\mathbf{x}_i - \mathbf{x}_j\rVert^2 / 2\sigma_i^2)}{\sum_{k \neq i} \exp(-\lVert\mathbf{x}_i - \mathbf{x}_k\rVert^2 / 2\sigma_i^2)}$
 
 Hmm, that looks familiar.
+
 
 ```python
 #Gaussian with softmax
