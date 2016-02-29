@@ -29,7 +29,7 @@ Answering questions and talking to the lecturer. I dont want others to judge me 
 
 # 313
 
-So a klien bottle is a mobuis strip rotated about 360 degrees, or in a higher dimension. So if you are on the surface of a klein bottle, you can travel in two dimensions. Up, which is the mobious strip, and across, wich is just a cylinder. Can you make it so that both directions result in the mobius strip?
+So a klien bottle is a mobuis strip rotated about 360 degrees, or in a higher dimension. So if you are on the surface of a klein bottle, you can travel in two dimensions. Up, which is the mobious strip, and across, wich is just a cylinder. Can you make it so that both directions result in the mobius strip? How many dimensions would you need to represent this? This could probably be stated (/claculated) mathematically.
 
 # CS231n
 
