@@ -25,9 +25,6 @@ plt.legend()
 Am I sure that this is right? what is the $k \neq i$ all about?
 
 
-Surely for MNSIT we are uninterested at the lowest level of local structure? As pixels are normally next to other pixels, we already know this... What we want to correlate is ???
-
-
 ### So how does this relate to t-SNE?
 * This is the distribution that the probabilities are taken from. 
 * High variance preserves global structure and low variance preserves local structure
@@ -37,6 +34,8 @@ Surely for MNSIT we are uninterested at the lowest level of local structure? As 
 *  Why gaussians? It seems like a big assumption that the relationship between data points is gaussian.
 	* What other options are there? 
 	* Gaussians give us? p(x), and symmetry. chi squared is more like two interacting forces? 
+
+
 
 $p_{j\mid i} = \frac{\exp(-\lVert\mathbf{x}_i - \mathbf{x}_j\rVert^2 / 2\sigma_i^2)}{\sum_{k \neq i} \exp(-\lVert\mathbf{x}_i - \mathbf{x}_k\rVert^2 / 2\sigma_i^2)}$
 
@@ -61,3 +60,20 @@ If we consider a simple example in 3d. We have two points, A and B. A = (3,4,100
 $$ \sqrt{3^2 + 4^2 + 10000^2} - \sqrt{3^2 + 4^2 + 10000^2}  = ???$$
 
 which is not representative of their similairty. We needa better norm? What are the alternatives and how do we want it to behave?
+
+
+# Entropy and KL divergence
+
+Entropy is defined for a distrete random variable as the amount of information the expected value gives. (i think)
+
+$$ \Eta(X) = \sum_{i=1}^n {\mathrm{P}(x_i)\,\mathrm{I}(x_i)} = -\sum_{i=1}^n {\mathrm{P}(x_i) \log_b \mathrm{P}(x_i)} $$
+
+Thus, KL divergence is
+
+$$ D_{\mathrm{KL}}(P\|Q) =  \sum_i P(i) \, \log P(i) - \sum_j P(j) \, \log Q(j) = \sum_k P(k) \, \log\frac{P(k)}{Q(k)}$$
+
+which says. The KL divergence is the difference in total information given by each variable. (how does this relate to t-SNE and dimensionality reduction?)
+
+Questions and thoughts
+* Surely for MNSIT we are uninterested at the lowest level of local structure? As pixels are normally next to other pixels, we already know this... What we want to correlate is ???
+* 
