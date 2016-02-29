@@ -7,7 +7,10 @@ Which is really the goal.
 * 
 
 Coil20 t-SNE looks weird! What is the reason, and how does that picture help us understand the structure of the data?
+"The crowding problem"
 
+https://lvdmaaten.github.io/publications/papers/AISTATS_2009.pdf
+http://nbviewer.jupyter.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0c648de22eff4a2a3e/raw/59d5bc5ed8f8bfd9ff1f7faa749d1b095aa97d5a/t-SNE.ipynb
 
 # 311
 
