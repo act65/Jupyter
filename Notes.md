@@ -33,12 +33,15 @@ Answering questions and talking to the lecturer. I dont want others to judge me 
 # 313
 
 Learning about the open set. Why?? What is the motivation, the lecturer seem to commonly skip the most important part! Is the just in math courses? Why, because the reason seems obvious to them, because?? I should ask what the motivation is!! That is a good question.
-So the open set implies/demands continuious space
+So the open set implies/demands continuious space.
+
+Dont know if I am sold on the definition of 'close' ness (seems like some ad-hoc measure of similarity). e.g. If A is close to b then it is in A... So open sets are arbitrarily large as long as they dont meet some sort of discontinuity?
+
+Definition of a topological space. X where X is a specified collection of open sets. Wouldn't this also work with closed sets? What is the union of a set of closed sets?
 
 So a klien bottle is a mobuis strip rotated about 360 degrees, or in a higher dimension. So if you are on the surface of a klein bottle, you can travel in two dimensions. Up, which is the mobious strip, and across, wich is just a cylinder. Can you make it so that both directions result in the mobius strip? How many dimensions would you need to represent this? This could probably be stated (/claculated) mathematically.
 
-## Questions
-* The union of a set of open sets it an open set? But this would infer that a surface is open???
+The union of a set of open sets it an open set? But this would infer that a surface is open??? Yes. To infinity , or looping back to itself.
 
 
 # CS231n
