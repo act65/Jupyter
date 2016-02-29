@@ -22,4 +22,5 @@ http://nbviewer.jupyter.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0
 
 # CS231n
 
-The greater the depth the more the gradients vanish/explode. How do deep conv nets avoid this? Normalise the weights to be on average 1. Thus, between each layer $\delta \cdot w = \delta \cdot 1$. That applies to linear depth, but what about residual nets?
+* The greater the depth the more the gradients vanish/explode. How do deep conv nets avoid this? Normalise the weights to be on average 1. Thus, between each layer $\delta \cdot w = \delta \cdot 1$. That applies to linear depth, but what about residual nets?
+* How does dropout work in conv nets? it is not like we have hidden layers were it is not a big deal if nodes disappear. The means between each layer you need to be able to ?? Dropping a node is the same as removing a column?
