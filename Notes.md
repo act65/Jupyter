@@ -24,3 +24,6 @@ http://nbviewer.jupyter.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0
 
 * The greater the depth the more the gradients vanish/explode. How do deep conv nets avoid this? Normalise the weights to be on average 1. Thus, between each layer $\delta \cdot w = \delta \cdot 1$. That applies to linear depth, but what about residual nets?
 * How does dropout work in conv nets? it is not like we have hidden layers were it is not a big deal if nodes disappear. The means between each layer you need to be able to ?? Dropping a node is the same as removing a column?
+* CNNs are attractive because of their efficiency. The weight tying means that less parameters need to be learned. This is why recurrent NNs are also capable of learning interesting things in/with reasonable amount of training data and computational steps.
+ * This seems really important. How can it be taken further? 
+ * This also seems deeply linked with the use of convolution?
