@@ -51,3 +51,8 @@ The union of a set of open sets it an open set? But this would infer that a surf
 * CNNs are attractive because of their efficiency. The weight tying means that less parameters need to be learned. This is why recurrent NNs are also capable of learning interesting things in/with reasonable amount of training data and computational steps.
  * This seems really important. How can it be taken further? 
  * This also seems deeply linked with the use of convolution?
+ * 
+ 
+# 335
+
+Why are these lecturers at Vic? A place where there is little interesting research (assumption)...
