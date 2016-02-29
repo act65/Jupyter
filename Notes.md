@@ -19,3 +19,4 @@ Coil20 t-SNE looks weird! What is the reason, and how does that picture help us 
 
 # CS231n
 
+The greater the depth the more the gradients vanish/explode. How do deep conv nets avoid this? Normalise the weights to be on average 1. Thus, between each layer $\delta \cdot w = \delta \cdot 1$. That applies to linear depth, but what about residual nets?
