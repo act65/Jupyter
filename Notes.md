@@ -19,6 +19,7 @@ http://nbviewer.jupyter.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0
  * The lecturers must think we are idiots, they are too focused on their average student passing the dumb it down too much. Thus the average student get bored anyway... Teaching occurs a lot slower.
  * And what are all the kids in my class thinking?!? Do they realise what the point of him droning on about how a = a, or ...
 * So the metacognitive technique here would be that I need to figure out what the teacher is trying to teach.
+* The issue with many students study technique. Sitting in lectures confused and not following, they should as questions, of the lecturer or google... preferable both
 
 Answering questions and talking to the lecturer. I dont want others to judge me as being the try hard, but what is so bad about that?
 
@@ -32,7 +33,7 @@ Answering questions and talking to the lecturer. I dont want others to judge me 
 # 313
 
 Learning about the open set. Why?? What is the motivation, the lecturer seem to commonly skip the most important part! Is the just in math courses? Why, because the reason seems obvious to them, because?? I should ask what the motivation is!! That is a good question.
-
+So the open set implies/demands continuious space
 
 So a klien bottle is a mobuis strip rotated about 360 degrees, or in a higher dimension. So if you are on the surface of a klein bottle, you can travel in two dimensions. Up, which is the mobious strip, and across, wich is just a cylinder. Can you make it so that both directions result in the mobius strip? How many dimensions would you need to represent this? This could probably be stated (/claculated) mathematically.
 
