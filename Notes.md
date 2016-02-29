@@ -20,6 +20,15 @@ http://nbviewer.jupyter.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0
  * And what are all the kids in my class thinking?!? Do they realise what the point of him droning on about how a = a, or ...
 * So the metacognitive technique here would be that I need to figure out what the teacher is trying to teach.
 
+* The stereotypes in my class. What is the experience like? Blogging?
+ * The extroverted who does quite know..
+ * The super pedantic and perfectionist who doesnt get social ques.
+ * 
+
+# 313
+
+
+
 # CS231n
 
 * The greater the depth the more the gradients vanish/explode. How do deep conv nets avoid this? Normalise the weights to be on average 1. Thus, between each layer $\delta \cdot w = \delta \cdot 1$. That applies to linear depth, but what about residual nets?
