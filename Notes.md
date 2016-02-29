@@ -57,8 +57,9 @@ plt.legend()
 ```
 If we consider a simple example in 3d. We have two points, A and B. A = (3,4,10000) and B = (3,4,0). Now these two points are quite similar, except for the third dimension, z. If we took the euclidean distance between them it would equal
 
-$$ \sqrt{3^2 + 4^2 + 10000^2} - \sqrt{3^2 + 4^2 + 10000^2}  = ???$$
-
+```python
+np.sqrt(3**2 + 4**2 + 10000**2) - np.sqrt(3**2 + 4**2 + 10000**2) 
+```
 which is not representative of their similairty. We needa better norm? What are the alternatives and how do we want it to behave?
 
 
@@ -74,6 +75,6 @@ $$ D_{\mathrm{KL}}(P\|Q) =  \sum_i P(i) \, \log P(i) - \sum_j P(j) \, \log Q(j) 
 
 which says. The KL divergence is the difference in total information given by each variable. (how does this relate to t-SNE and dimensionality reduction?)
 
-Questions and thoughts
+# Questions and thoughts
 * Surely for MNSIT we are uninterested at the lowest level of local structure? As pixels are normally next to other pixels, we already know this... What we want to correlate is ???
 * 
