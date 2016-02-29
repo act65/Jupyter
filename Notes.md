@@ -55,6 +55,9 @@ for s in sigma:
 	plt.scatter(x, y/(np.sum(y), label = 'sigma = ' + str(s))
 plt.legend()
 ```
+
+# Distance
+
 If we consider a simple example in 3d. We have two points, A and B. A = (3,4,10000) and B = (3,4,0). Now these two points are quite similar, except for the third dimension, z. If we took the euclidean distance between them it would equal
 
 ```python
@@ -62,6 +65,7 @@ np.sqrt(3**2 + 4**2 + 10000**2) - np.sqrt(3**2 + 4**2 + 10000**2)
 ```
 which is not representative of their similairty. We needa better norm? What are the alternatives and how do we want it to behave?
 
+So we need a norm and a distrubution that some how work together to capture the global and/or local structre.
 
 # Entropy and KL divergence
 
@@ -77,5 +81,6 @@ which says. The KL divergence is the difference in total entropy of each variabl
 What does $ P(i) \log(Q(i)) $ mean? The porbability of p times the information content of q.. ???
 
 # Questions and thoughts
-* Surely for MNSIT we are uninterested at the lowest level of local structure? As pixels are normally next to other pixels, we already know this... What we want to correlate is ???
-* 
+* Surely for MNSIT we are uninterested at the lowest level of local structure? As pixels are normally next to other pixels, we already know this... We are interested in what groups of pixels correlate with others?? 
+* The problem is there are many interpretations of similarity, and where do we draw the line? 
+	* Also, similaity in which dimensions, are they all created equal (is this what PCA does?)
