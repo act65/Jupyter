@@ -20,7 +20,9 @@ http://nbviewer.jupyter.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0
  * And what are all the kids in my class thinking?!? Do they realise what the point of him droning on about how a = a, or ...
 * So the metacognitive technique here would be that I need to figure out what the teacher is trying to teach.
 
-* The stereotypes in my class. What is the experience like? Blogging?
+Answering questions and talking to the lecturer. I dont want others to judge me as being the try hard, but what is so bad about that?
+
+* The stereotypes in my class. What is the experience like? Bored students... Blog!
  * The extroverted who does quite know..
  * The super pedantic and perfectionist who doesnt get social ques.
  * 
