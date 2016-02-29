@@ -71,9 +71,10 @@ $$ \Eta(X) = \sum_{i=1}^n {\mathrm{P}(x_i)\,\mathrm{I}(x_i)} = -\sum_{i=1}^n {\m
 
 Thus, KL divergence is
 
-$$ D_{\mathrm{KL}}(P\|Q) =  \sum_i P(i) \, \log P(i) - \sum_j P(j) \, \log Q(j) = \sum_k P(k) \, \log\frac{P(k)}{Q(k)}$$
+$$ D_{\mathrm{KL}}(P\|Q) =  \sum_i P(i) \,( \log P(i) -  \log Q(i)) = \sum_i P(i) \, \log\frac{P(i)}{Q(i)}$$
 
-which says. The KL divergence is the difference in total information given by each variable. (how does this relate to t-SNE and dimensionality reduction?)
+which says. The KL divergence is the difference in total entropy of each variable. no it isnt... (how does this relate to t-SNE and dimensionality reduction?)
+What does $ P(i) \log(Q(i)) $ mean? The porbability of p times the information content of q.. ???
 
 # Questions and thoughts
 * Surely for MNSIT we are uninterested at the lowest level of local structure? As pixels are normally next to other pixels, we already know this... What we want to correlate is ???
