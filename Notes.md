@@ -60,3 +60,15 @@ Why are these lecturers at Vic? A place where there is little interesting resear
 Real algorithms are too complicated (redundancy...???, finite memory???) so we make a nicer version - Turing machines - full of assumptions and ideals... This does not sound like a good presmise to start on... What is the study of real algorithms and problems? Just timing them and recording the CPU/GPU activity? 
 
 What is the point of non-deterministic turning machines? To model ?? real computers, as electonics makes mistakes, bits accidentally flipped etc...
+
+
+# Prediction and learning
+
+The rate of learning is important. The resource we are tracking is mistakes. E.g. polynomial time algorithms, sub linear error!
+
+Computational complexity. Want is the minimum amount of errors that you have to make to learn a given data set.
+
+Experts = bandit (but with less info?) - partial information (like reinformcement learning)
+Bandit, you have to explore.
+
+Upper connfidence bound (or UC tree) leads to? -> monte carlo tree search
