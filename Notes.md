@@ -26,3 +26,8 @@ Experts = bandit (but with less info?) - partial information (like reinformcemen
 Bandit, you have to explore.
 
 Upper connfidence bound (or UC tree) leads to? -> monte carlo tree search
+
+Exponential weights - hyperexperts. The same thing? should have the same bound??
+
+$E(f(X)) \ge f(E(X)).$ o this implies that $x^2$ is convex?
+
