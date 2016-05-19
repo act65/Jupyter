@@ -1,5 +1,3 @@
-#https://github.com/tensorflow/tensorflow/blob/r0.8/tensorflow/examples/tutorials/mnist/mnist_with_summaries.py
-
 """A simple MNIST classifier which displays summaries in TensorBoard.
 
  This is an unimpressive MNIST model, but it is a good example of using
@@ -13,8 +11,8 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
-import input_data
-#from tensorflow.examples.tutorials.mnist import input_data
+
+from tensorflow.examples.tutorials.mnist import input_data
 
 
 flags = tf.app.flags
@@ -24,9 +22,9 @@ flags.DEFINE_boolean('fake_data', False, 'If true, uses fake data '
 flags.DEFINE_integer('max_steps', 1000, 'Number of steps to run trainer.')
 flags.DEFINE_float('learning_rate', 0.001, 'Initial learning rate.')
 flags.DEFINE_float('dropout', 0.9, 'Keep probability for training dropout.')
-flags.DEFINE_string('data_dir', '/home/telfaralex/Code/Notebooks/Programming resources, tests and notes/MNIST_data', 'Directory for storing data')
-flags.DEFINE_string('summaries_dir', '/home/telfaralex/Code/Notebooks/Programming resources, tests and notes/logs/mnist_villa_tests', 'Summaries directory')
-flags.DEFINE_integer('hidden',500,'the number of hidden nodes')
+flags.DEFINE_string('data_dir', '/tmp/data', 'Directory for storing data')
+flags.DEFINE_string('summaries_dir', '/tmp/mnist_logs', 'Summaries directory')
+
 
 def train():
   # Import data
@@ -92,9 +90,9 @@ def train():
       tf.histogram_summary(layer_name + '/activations', activations)
       return activations
 
-  hidden1 = nn_layer(x, 784, FLAGS.hidden, 'layer1')
+  hidden1 = nn_layer(x, 784, 500, 'layer1')
   dropped = tf.nn.dropout(hidden1, keep_prob)
-  y = nn_layer(dropped, FLAGS.hidden, 10, 'layer2', act=tf.nn.softmax)
+  y = nn_layer(dropped, 500, 10, 'layer2', act=tf.nn.softmax)
 
 
   with tf.name_scope('cross_entropy'):
