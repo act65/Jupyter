@@ -1,9 +1,6 @@
-### Finished
+A breeding ground for ideas. A place they are born and can explore.
 
-* [PCA and AE](https://github.com/act65/Notes/blob/master/PCA%20and%20AE.ipynb). A quick look at PCA, what an eigen vector/value is/means, and Oja's old result that linear autoencoders learn PCA.
 
-### To-do
-
-* Start 10 more notebooks.
-* Finish 2...
-* Repeat.
+* a collection of ideas to investigate,
+* a series of tutorials in a subject I wanted to learn,
+* and random side-projects.
