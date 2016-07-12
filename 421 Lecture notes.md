@@ -12,6 +12,7 @@ Improvements(?);
 * Could have done with more inspiration. Interesting point you made "_ I dont want to act as a repository for interesting resources, as I want others to go out and find it._" Chicken and egg problem? Need to inspire them first, so they will be motivated to find interesting stuff?
 * Get to know class members? Everyone introduces themselves? Why are they taking the course?
 
+
 *****
 
 ### Strawman
