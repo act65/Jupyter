@@ -50,9 +50,14 @@ I think the perceptron is a great canidate for people to go away and implement. 
 The curse of dimensionality wasnt linked into ML problems.
 
 *****
-###
+### Distributions
 ##### Material
+
+A look at the softmax function and gaussian distributions. For two class classification the softmax function is a sigmoid. Biases cancel out??? How good an hyperprior is assuming our variables are gaussian? Supposedly if you randomly sample any distribution you get a gaussian??? Covariance matrices are not orthogonal, hmm, but are symmetric and semi-positive definite. Central limit theorem??
+
 ##### Thoughts on the teaching
+
+So we have swapped Marcus lecturing for students lecturing, aka worse teachers. I think we/Marcus have missed the point of peer teaching. I think it is peer tutoring that is most beneficial for all, not peer lecturing, which is only really useful for the person lecturing.
 
 *****
 ###
