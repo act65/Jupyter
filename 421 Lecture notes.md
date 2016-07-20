@@ -60,6 +60,13 @@ A look at the softmax function and gaussian distributions. For two class classif
 So we have swapped Marcus lecturing for students lecturing, aka worse teachers. I think we/Marcus have missed the point of peer teaching. I think it is peer tutoring that is most beneficial for all, not peer lecturing, which is only really useful for the person lecturing.
 
 *****
-###
+### Loss function
 ##### Material
+
+Covered i.i.d assumption that each point in our data set is independent and is draw from the same distribution. (does this imply that we are assuming that the variables we are sampling are representative of all behaviour?). 
+
+All training can be formulated as the maximisation of the probability that our prediction, given some input, equals the target. P(T=y|x). I feel like there is a way to cheat this?
+
 ##### Thoughts on the teaching
+
+Better class. I liked the couple of question we had, some puzzles to solve. The class is starting to get more relaxed and talkative? 
