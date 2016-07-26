@@ -70,3 +70,13 @@ All training can be formulated as the maximisation of the probability that our p
 ##### Thoughts on the teaching
 
 Better class. I liked the couple of question we had, some puzzles to solve. The class is starting to get more relaxed and talkative? 
+
+***
+### Polynomial curve fitting
+##### Material
+
+Didn't understand the problem very well (too cocky..). How can we use polynomial curve fitting for classification? We want to classify different inputs into classes. My answer was to classify different outputs...
+
+##### Thoughts on the class
+
+More coherent and well thought out presentation from the student.
