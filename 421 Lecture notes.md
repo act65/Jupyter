@@ -80,3 +80,12 @@ Didn't understand the problem very well (too cocky..). How can we use polynomial
 ##### Thoughts on the class
 
 More coherent and well thought out presentation from the student.
+***
+### Backprop
+##### Material
+
+A detail oriented intro to the chain rule and backprop. I would have liked a higher level explanation, how is it actually propagating anything? Why do we bother?
+
+##### Thoughts on the class
+
+Too many details. We should let people figure that stuff out themselves, go home and try and derive it. As long as they know what the goal is, and what chain rule is, they should be fine.
