@@ -1,5 +1,0 @@
-
-* Localisation
-* Grid generator
-* Sampler
-
