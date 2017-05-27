@@ -1,17 +1,4 @@
-* A collection of ideas to investigate,
-* a series of tutorials in a subject I wanted to learn,
+* Ideas to investigate,
+* tutorials/notes on a subject I wanted to learn,
+* toy problems,
 * random side-projects.
-
-Ideally I will migrate these over to my blog when they are; coherent, clear and comprehensible, and succinct.
-
-### TODO
-
-* Communication protocols
-* Algorithms
-    * SVD
-    * FFT
-    * Matmul
-* Error correction
-* Relationship between cryptography and learning
-* 
-* 
